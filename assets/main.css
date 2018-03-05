@@ -1,0 +1,112 @@
+.main-header {
+  text-align: center; }
+
+.main-header__image img {
+  border-radius: 150px;
+  margin-top: 50px;
+  height: 300px;
+  width: 300px;
+  box-shadow: 2px 2px 2px black; }
+
+.main-header__headline {
+  color: #3a3a3a;
+  font-size: 90px;
+  font-weight: 400; }
+
+.main-header__icon-list li {
+  display: inline-block;
+  list-style-type: none;
+  position: relative;
+  left: -50px; }
+  .main-header__icon-list li i {
+    color: black;
+    font-size: 3em;
+    padding-left: 50px;
+    transition: 0.5s ease-in-out; }
+    .main-header__icon-list li i:hover {
+      cursor: pointer;
+      color: gray;
+      transition: 0.5s ease-in-out; }
+
+.main-header__second-headline {
+  color: #999; }
+
+.icon-list__cv {
+  text-decoration: none; }
+  .icon-list__cv a {
+    text-decoration: none;
+    font-size: 3em;
+    padding-left: 50px;
+    box-sizing: border-box;
+    transition: 0.5s ease-in-out;
+    font-weight: bold;
+    color: black; }
+    .icon-list__cv a:hover {
+      color: gray;
+      text-decoration: none;
+      transition: 0.5s ease-in-out; }
+
+.main-project {
+  border-bottom: 1px solid black; }
+
+.main-project__headline {
+  text-align: center;
+  font-size: 5em; }
+
+.main-project__img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px black; }
+
+
+.text-box__list {
+  margin-top: 10px;
+  padding-left: 0; }
+  .text-box__list li {
+    background-color: #3a3a3a;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    border-radius: 16px;
+    margin-top: 10px; }
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; }
+
+.main-project__second-headline {
+  color: #999; }
+
+@media all and (max-width: 440px) {
+  .main-header__headline {
+    color: #3a3a3a;
+    font-size: 40px;
+    font-weight: 400; }
+
+  .main-project__headline {
+    font-size: 40px; }
+
+  .main-header__icon-list {
+    display: block;
+    text-align: center; }
+
+  .main-header__image img {
+    height: 200px;
+    width: 200px; } }
+* {
+  font-family: 'Oswald', sans-serif; }
+
+/*
+     FILE ARCHIVED ON 08:51:30 Jan 19, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:23:44 Feb 27, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
